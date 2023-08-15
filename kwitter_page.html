@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>Chat Room</title>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+<script src="kwitter_page.js"></script>
+        <link rel="stylesheet" type="text/css" href="kwitter_room.css">
+    </head>
+    <body>
+        <button onclick="logout()">LOGOUT</button>
+        <div id="message"></div>
+        <input type="text" id="msg" class="form-control" placeholder="Message">
+        <button onclick="send()">SEND</button>
+        <br>
+    </body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    font-size: 40px;
+    background-color: beige;
+
+}
+
+  input{
+    width: 300px;
+    height: 60px;
+    font-size: 30px;
+  }
+
+  #login_button{
+    width: 150px;
+    height: 40px;
+    font-size: 25px;
+    background-color: rgb(11, 219, 11);
+    color: white;
+  }
+
+  
